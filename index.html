@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vaenyam | The House of Banarasi Rarity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">varenyam</a>
+    <button class="nav-toggle" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav">
+      <a href="#philosophy">The Philosophy</a>
+      <a href="#house">The House</a>
+      <a href="#masters">The Masters</a>
+      <a href="#collection">The Collection</a>
+      <a href="#ownership">Ownership</a>
+      <a href="#journal">Journal</a>
+      <a href="#request">Request Consideration</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero reveal">
+      <div class="hero-copy">
+        <p class="eyebrow">A private heritage house of Banarasi mastery</p>
+        <h1>varenyam</h1>
+        <p class="hero-text">Rare, collectible Banarasi masterpieces imagined as legacy objects, not fashion statements.</p>
+        <div class="hero-actions">
+          <a href="#request" class="btn btn-primary">Request Consideration</a>
+          <a href="#house" class="btn btn-secondary">Enter the House</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="philosophy" class="panel reveal">
+      <div class="panel-content">
+        <p class="section-label">The Philosophy</p>
+        <h2>Heritage, rarity, permanence, legacy.</h2>
+        <div class="grid-2">
+          <article>
+            <h3>Heritage</h3>
+            <p>Each creation is rooted in Banaras, shaped by generations of loom traditions and cultural depth.</p>
+          </article>
+          <article>
+            <h3>Rarity</h3>
+            <p>We release only 7, 9, 11 or 21 creations each year, preserving each collection as a rare house statement.</p>
+          </article>
+          <article>
+            <h3>Permanence</h3>
+            <p>Designs are timeless, built to be inherited as wearable art and kept beyond seasons.</p>
+          </article>
+          <article>
+            <h3>Legacy</h3>
+            <p>Our work honors the custodians of craft while inviting discerning patrons into a private, cultural journey.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="house" class="panel panel-alt reveal">
+      <div class="panel-content">
+        <p class="section-label">The House</p>
+        <h2>A maison of elevated Banarasi expression.</h2>
+        <p>varenyam is conceived as a luxury atelier, not a marketplace. Every detail reflects house standards, exacting craftsmanship, and the quiet confidence of rare creation.</p>
+        <div class="feature-list">
+          <div>
+            <h3>House Vision</h3>
+            <p>To become one of India’s most distinguished luxury ethnic houses, celebrated for authenticity, artistry and quiet exclusivity.</p>
+          </div>
+          <div>
+            <h3>House Standards</h3>
+            <p>Only noble materials, master-led weaving, and a restrained release cadence define our process.</p>
+          </div>
+          <div>
+            <h3>Craftsmanship Promise</h3>
+            <p>Every piece is made with mindful handwork, certified provenance, and a sense of purpose beyond fashion.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="masters" class="panel reveal">
+      <div class="panel-content">
+        <p class="section-label">The Masters</p>
+        <h2>Custodians of the loom.</h2>
+        <p>Meet the weavers whose lineage, skill and dedication sustain the Banarasi legacy.</p>
+        <div class="grid-3">
+          <article>
+            <h3>Meera Devi</h3>
+            <p>Fourth-generation master weaver known for her disciplined brocade and luminous motifs.</p>
+          </article>
+          <article>
+            <h3>Ravindra Singh</h3>
+            <p>Guardian of heritage techniques, blending traditional storytelling with measured innovation.</p>
+          </article>
+          <article>
+            <h3>Kavita Sharma</h3>
+            <p>A curator of timeless texture, she shapes each drape with reverence for lineage and detail.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="collection" class="panel panel-alt reveal">
+      <div class="panel-content">
+        <p class="section-label">The Collection</p>
+        <h2>Curated creations, each with its own narrative.</h2>
+        <p>The collection is presented as a gallery of singular works rather than a catalogue. Each piece is an invitation to explore inspiration, technique and availability.</p>
+        <div class="product-collection-grid">
+          <div class="product-card" data-product="watches">
+            <img src="Image/watch.jpg" alt="Watches" class="product-image">
+            <div class="product-overlay">
+              <h3>Watches</h3>
+            </div>
+          </div>
+          <div class="product-card" data-product="saree">
+            <img src="Image/2.jpeg" alt="Saree" class="product-image">
+            <div class="product-overlay">
+              <h3>Saree</h3>
+            </div>
+          </div>
+          <div class="product-card" data-product="perfumes">
+            <img src="Image/Perfume.jpg" alt="Perfumes" class="product-image">
+            <div class="product-overlay">
+              <h3>Perfumes</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="productModal" class="product-modal">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <div class="modal-body">
+          <h2 id="modalTitle"></h2>
+          <p id="modalDescription"></p>
+        </div>
+      </div>
+    </div>
+
+    <section id="process" class="panel reveal">
+      <div class="panel-content">
+        <p class="section-label">The Creation Process</p>
+        <h2>From idea to masterpiece.</h2>
+        <div class="process-grid">
+          <div>
+            <h3>Design Journey</h3>
+            <p>A thoughtful design dialogue rooted in heritage symbols, proportion and atmosphere.</p>
+          </div>
+          <div>
+            <h3>Material Selection</h3>
+            <p>Rare silks, noble threads and hand-prepared dyes chosen for their hand, sheen and longevity.</p>
+          </div>
+          <div>
+            <h3>Hand Weaving</h3>
+            <p>Each weave is measured, paced and executed by master artisans at the loom.</p>
+          </div>
+          <div>
+            <h3>Finishing & Certification</h3>
+            <p>Final finishing, provenance documentation and house certification complete every creation.</p>
+          </div>
+          <div>
+            <h3>Presentation</h3>
+            <p>Pieces are unveiled in a considered presentation that reflects their rarity and lineage.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ownership" class="panel panel-alt reveal">
+      <div class="panel-content">
+        <p class="section-label">Ownership</p>
+        <h2>A private pathway to acquisition.</h2>
+        <div class="grid-2">
+          <div>
+            <h3>Private Consultations</h3>
+            <p>Acquisition begins with a discreet conversation to understand select requirements and aspirations.</p>
+          </div>
+          <div>
+            <h3>Bespoke Commissions</h3>
+            <p>Clients may commission a unique creation tailored to their personal narrative and heritage values.</p>
+          </div>
+        </div>
+        <p class="ownership-note">No open shopping. Every relationship is cultivated through invitation, consideration and respect for rarity.</p>
+      </div>
+    </section>
+
+    <section id="founding" class="panel reveal">
+      <div class="panel-content">
+        <p class="section-label">Founding Circle</p>
+        <h2>An invitation-only house circle.</h2>
+        <p>Members are granted early access to releases, private previews, bespoke commissions and rare cultural engagements.</p>
+        <ul class="circle-list">
+          <li>Private preview of new collections</li>
+          <li>Curated conversations with the house and artisans</li>
+          <li>Priority for bespoke work and heirloom pieces</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="journal" class="panel panel-alt reveal">
+      <div class="panel-content">
+        <p class="section-label">Journal</p>
+        <h2>Editorial stories from the loom and the city.</h2>
+        <div class="journal-grid">
+          <article>
+            <h3>Banaras in detail</h3>
+            <p>Exploring the city’s architectural mood, river rituals and the way they influence our house narrative.</p>
+          </article>
+          <article>
+            <h3>The art of brocade</h3>
+            <p>A deep look at hand-weaving techniques that make each creation singular and lasting.</p>
+          </article>
+          <article>
+            <h3>Portraits of the masters</h3>
+            <p>Stories of the families and craftsmen who carry the tradition forward.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="request" class="panel request-panel reveal">
+      <div class="panel-content">
+        <p class="section-label">Request Consideration</p>
+        <h2>Begin a private conversation.</h2>
+        <p>If you seek a rare creation, leave your details and our house will respond with a curated next step.</p>
+        <form class="request-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Your email" required>
+          </div>
+          <div class="form-row">
+            <label for="interest">Interest</label>
+            <select id="interest">
+              <option>Private consultation</option>
+              <option>Bespoke commission</option>
+              <option>Founding Circle</option>
+              <option>Collection preview</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Tell us about your interest"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+          <p class="form-note">We will respond with a private invitation and next steps.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="success-modal">
+      <div class="success-content">
+        <div class="success-icon">✓</div>
+        <h2>Request Sent Successfully</h2>
+        <p>Thank you for your interest. We will respond with a private invitation and next steps shortly.</p>
+        <button class="btn btn-primary" id="closeSuccessBtn">Close</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>varenyam — A heritage house of rare Banarasi craftsmanship.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
